@@ -1,0 +1,71 @@
+body {
+    font-family: arial;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresenta {
+    width: 45%;
+    text-align: justify;
+    padding: 10px 15px;
+    margin: 130px 0;
+    color: lightgray;
+}
+
+.apresenta section {
+    border: 5px solid #3EC7E6;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.formulario {
+    width: 45%;
+    margin: 130px 0;
+    padding: 10px 0;
+    color: lightgray;
+    vertical-align: middle;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0 10px;
+    padding: 5px;
+    width: 90%;
+    display: block;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 5px 0;
+    text-align: center;
+    border: 2px solid #3bbfdd;
+    border-radius: 10px;
+    background-color: #3092a8;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: #3bbfdd;
+}
+
+.rodape {
+    height: 40px;
+    width: 100%;
+    background-color: #3bbfdd;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+
+}
